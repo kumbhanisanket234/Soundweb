@@ -1,0 +1,36 @@
+
+#blog{
+    background-color: rgb(200, 223, 239);
+    /* padding: 5px  0; */
+}
+
+.cards{
+    margin-top: 3rem;   
+    
+}
+
+.card{
+    border-radius: 1rem;    
+}
+
+
+.blogimg{
+    height: 190px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+}
+
+.card:hover{
+    transform: scale(1.06);
+    transition: 0.5s;
+    border: 3px solid rgb(87, 194, 212);
+ 
+}      
+
+
+.btnmore:hover{
+    background-color: black;
+    color: white !important;
+    font-weight: 600;
+}

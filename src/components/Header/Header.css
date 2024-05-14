@@ -1,0 +1,62 @@
+ body{
+    margin: 0;
+ }
+ header{
+    min-height: 100vh;
+    background-color:rgb(243, 247,252);
+    background-size: cover;
+    background-position: center;
+ }
+
+ header .wrapper{
+    position: relative;
+    height: 100vh;
+ }
+
+ header .cta{
+    /* position: relative;
+    bottom: 0;
+    right: 0; */
+    
+    /* width: 415px; */
+    border-radius: 1rem;
+    background-color: rgb(152, 196, 225);
+    padding:1rem 1.5rem 1rem 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    margin-top: 10rem;
+ }
+
+header .cta .course-name{
+   font-weight: 800;
+   font-size: 16px;
+}
+
+header .cta h1{
+   font-family: "Alegreya";
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 140%;
+   
+}
+header .cta .demo-btn{
+    background-color: rgb(235, 112, 133);
+    color: white;
+ }
+
+ .headphone{
+   margin-top: 8rem;
+   height: 450px !important;
+   width: 450px !important;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   display: grid;
+   place-items: center;
+
+ }
+
+ .ctaupr{
+   height: 400px;
+   width: 246px;
+   margin-bottom: 6rem;
+ }

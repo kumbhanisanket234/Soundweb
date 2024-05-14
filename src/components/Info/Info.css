@@ -1,0 +1,46 @@
+
+
+.info-content img{
+    height: 170px;
+}
+
+#info{
+    min-height: 50vh;
+    color: rgb(247, 247, 247);
+   
+    background-color: rgb(152, 196, 225);
+}
+
+#info .containt-container{
+    padding: 7rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-content{
+   text-align: center;
+}
+.amount{
+    font-family: "Alegreya";
+    font-weight: 800;
+    font-size: 25px;
+    
+    margin-top: 0.50rem;
+}
+
+.type{
+    font-family: "Alegreya";
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.info-content3 img{
+    width: 200px;
+    height: 200px !important; 
+    border-radius: 0.75rem;
+    border: 2px solid black;
+
+    /* object-fit: scale-down; */
+    
+}

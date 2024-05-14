@@ -1,0 +1,42 @@
+.topic-img img{
+    height: 300px;
+    width: 550px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.topic-img img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.content-container ul {
+    /* margin-top: 1.5rem; */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 24px;
+}
+
+#topics .topics-list li{
+    font-family: 'Alegreya';
+    font-weight: 400;
+    font-size: 20px;
+    margin: 24px 0  ;
+}
+
+#topics .topics-list li::before{
+    content: "•";
+    /* color: rgb(91, 193, 233); */
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 10px;
+    
+}
+
+.content-container{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12px;
+}
